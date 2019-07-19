@@ -1,5 +1,7 @@
 "# Bootloader_Project" 
-
+	
+	This project was built in windows environment, the instructions that follow are for windows only.
+	
 	MinGW Makefiles is specified as the generator. They can be manually changed by editing build_all.bat or the individual m.bat in directory of Bootloader.
 
 	CMake ver – 3.14.4
