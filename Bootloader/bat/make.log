@@ -1,0 +1,6 @@
+CMake Error: The current CMakeCache.txt directory C:/Tests/Bootloader/build/CMakeCache.txt is different than the directory c:/Users/Rabita/Documents/COMPILE/Bootloader/build where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[ 25%] Building C object CMakeFiles/boot.dir/bootloader.c.obj
+[ 50%] Building C object CMakeFiles/boot.dir/crc32.c.obj
+[ 75%] Building C object CMakeFiles/boot.dir/sha256.c.obj
+[100%] Linking C static library libboot.a
+[100%] Built target boot

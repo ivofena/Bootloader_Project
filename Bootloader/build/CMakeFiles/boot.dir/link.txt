@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libboot.a  CMakeFiles/boot.dir/bootloader.c.obj CMakeFiles/boot.dir/crc32.c.obj CMakeFiles/boot.dir/sha256.c.obj
+C:\MinGW\bin\ranlib.exe libboot.a

@@ -1,0 +1,6 @@
+rm -f debug/main.o  ../bat/*.err
+rm -rf *.o *.bb *.bbg *.da *.gcno *.gcda *.info descriptions
+rm -rf debug/main.map debug/main.exe
+mkdir -p ../bat/debug
+gcc -c -x c -Wextra -fno-builtin -std=c99 -I ../src/ -O2 -fdiagnostics-show-option -W -Wno-long-long   ../src/main.c -o debug/main.o 2>&1 | tee ../bat/main.c.err	
+gcc -o main debug/main.o  ../lib/libboot.a
