@@ -1,4 +1,6 @@
 "# Bootloader_Project" 
+	This is a simple project which takes in a data from flash and loads it into ram.
+	This example does not include the jump to address code necessary in actual bootloader.
 	
 	This project was built in windows environment, the instructions that follow are for windows only.
 	
